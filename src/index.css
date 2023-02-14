@@ -36,7 +36,6 @@ h1
 	top: 35%;
 	margin-left: 5%;
 	color: #fff;
-	font : normal 600 72px/1 'Open Sans', sans-serif;
 	text-align: center;
 	white-space: nowrap;
 }
@@ -58,7 +57,6 @@ h2
 	position: absolute;
 	top: 45%;
 	color: #fff;
-	font: normal 600 75px/1 'Open Sans', sans-serif;
 	white-space: inherit;
 }
 
