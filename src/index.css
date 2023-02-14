@@ -30,7 +30,7 @@ text-align: center;
 }
 
 
-h1
+.hero h1
 {
 	position: absolute;
 	top: 35%;
@@ -40,7 +40,7 @@ h1
 	white-space: nowrap;
 }
 
-h3{
+.hero h3{
 	text-align: center;
 	padding: 5rem;
 }
@@ -50,7 +50,7 @@ h3{
 
 
 
-h2
+.hero h2
 {
 	margin-left: 5%; 
 	
