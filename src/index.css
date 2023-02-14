@@ -1,12 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
-* {
-	margin: 0;
-	padding: 0;
-}
 
 .hero 
 {
@@ -14,17 +6,60 @@
 	background: linear-gradient(-45deg, rgba(229,93,135,.7), rgba(95,195,228,.7)), url(https://picsum.photos/g/2000/1200?image=443) center center / cover no-repeat;
 }
 
-h1 
+.hero .buttonHero
+{
+	padding-left: 5%;
+	padding-top: 30%;
+}
+
+.aboutUs .buttonAboutUs
+{
+	text-align: center;
+}
+
+
+
+
+
+
+p
+{
+padding-left: 10%;
+padding-right: 10%;
+text-align: center;
+}
+
+
+h1
 {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	top: 35%;
+	margin-left: 5%;
 	color: #fff;
 	font : normal 600 72px/1 'Open Sans', sans-serif;
 	text-align: center;
 	white-space: nowrap;
+}
+
+h3{
+	text-align: center;
+	padding: 5rem;
+}
+
+
+
+
+
+
+h2
+{
+	margin-left: 5%; 
+	
+	position: absolute;
+	top: 45%;
+	color: #fff;
+	font: normal 600 75px/1 'Open Sans', sans-serif;
+	white-space: inherit;
 }
 
 .bootstrapCard
@@ -35,7 +70,7 @@ h1
 
 /* unvisited link */
 a:link {
-	color: red;
+	color: white;
 	text-decoration: none;
   }
   
@@ -63,7 +98,7 @@ a:link {
 	padding: 5rem;
 	width: 100%;
 	height: 100%;
-	background-color: red;
+	background-color: green;
 	color: white;
 	text-align: center;
  }
@@ -74,11 +109,6 @@ a:link {
 	font-size: 50px;
  }
 
- p
- {
-	padding: 2.5rem;
-	align-items: center;
- }
 
  img
  {

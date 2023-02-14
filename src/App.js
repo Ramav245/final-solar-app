@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
+import WhySolar from './routes/WhySolar';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/whySolar' element={<WhySolar/>} />
       </Routes>
     </>
 
