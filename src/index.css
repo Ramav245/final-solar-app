@@ -30,16 +30,28 @@ text-align: center;
 }
 
 
-h1
+.hero h1
 {
 	position: absolute;
 	top: 35%;
 	margin-left: 5%;
 	color: #fff;
-	font : normal 600 72px/1 'Open Sans', sans-serif;
+	font-size: large;
 	text-align: center;
 	white-space: nowrap;
 }
+
+.hero h2
+{
+	font-size: medium;
+	margin-left: 5%; 
+	position: absolute;
+	top: 45%;
+	color: #fff;
+
+	white-space: ;
+}
+
 
 h3{
 	text-align: center;
@@ -47,20 +59,6 @@ h3{
 }
 
 
-
-
-
-
-h2
-{
-	margin-left: 5%; 
-	
-	position: absolute;
-	top: 45%;
-	color: #fff;
-	font: normal 600 75px/1 'Open Sans', sans-serif;
-	white-space: inherit;
-}
 
 .bootstrapCard
 {
