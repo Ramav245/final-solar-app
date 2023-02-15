@@ -29,7 +29,7 @@ font-size: 100px;
 }
 
 
-h1
+.headings
 {
 position: absolute;
 top: 35%;
@@ -51,7 +51,7 @@ h3{
 
 
 
-.hero h2
+.subheadings
 {
 	margin-left: 5%; 
 	
