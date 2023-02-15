@@ -14,8 +14,8 @@ const Home = () => {
         <section>
             
             <div class="hero">
-                <h1>Energy with Integrity®. Since 1994.</h1>
-                <h2>Solar energy can lower your cost of living, protect the environment and improve your quality of life. 
+                <h1 class="headings">Energy with Integrity®. Since 1994.</h1>
+                <h2 class="subheadings">Solar energy can lower your cost of living, protect the environment and improve your quality of life. 
                 Take control of your electric bill with a no-cost solar installation today.
                 </h2>
                 <div class="buttonHero"><Button variant="primary"><div class="nav-link"><NavLink to="/contact">Contact Us</NavLink></div></Button></div>

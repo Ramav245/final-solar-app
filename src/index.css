@@ -4,6 +4,7 @@
 {
 	height: 100vh;
 	background: linear-gradient(-45deg, rgba(229,93,135,.7), rgba(95,195,228,.7)), url(https://picsum.photos/g/2000/1200?image=443) center center / cover no-repeat;
+	font-size: 25px;
 }
 
 .hero .buttonHero
@@ -17,11 +18,6 @@
 	text-align: center;
 }
 
-
-
-
-
-
 p
 {
 padding-left: 10%;
@@ -29,31 +25,31 @@ padding-right: 10%;
 text-align: center;
 }
 
-
-.hero h1
+.headings
 {
 	position: absolute;
 	top: 35%;
 	margin-left: 5%;
 	color: #fff;
-	font-size: large;
+	font-size: 1rem;
 	text-align: center;
 	white-space: nowrap;
 }
 
-.hero h2
+.subheadings
 {
-	font-size: medium;
+	font-size: 25px;
 	margin-left: 5%; 
 	position: absolute;
 	top: 45%;
 	color: #fff;
 
-	white-space: ;
+	white-space: inherit;
 }
 
 
-h3{
+h3
+{
 	text-align: center;
 	padding: 5rem;
 }
@@ -101,26 +97,11 @@ a:link {
 	text-align: center;
  }
 
- .header
- {
-	padding: 2.5rem;
-	font-size: 50px;
- }
-
-
  img
  {
 	padding: 1rem;
 	
  }
-
- .headings
- {
-	padding-top: 1rem;
-	text-align: center;
-	font-size: 25px;
- }
-
 
  .navbar-brand {
     position: relative;
