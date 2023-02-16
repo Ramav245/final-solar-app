@@ -1,4 +1,9 @@
 
+body
+{
+    font: 18px Arial, sans-serif;
+}
+
 .hero 
 {
 	height: 100vh;
