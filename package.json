@@ -1,8 +1,6 @@
 {
+  "homepage": "https://ramav245.github.io/SolarReactWebsite/",
   "name": "solar-app",
-
-  "homepage":"https://ramav245.github.io/SolarReactWebsite/",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +21,7 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
