@@ -11,6 +11,10 @@ html *
 	height: 100vh;
 	background: center / contain no-repeat url("./images/header.png");
 	font-size: 25px;
+	background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero .buttonHero

@@ -12,15 +12,15 @@ const Products = () => {
             <div class="container">
                 <div class="row">
                     <div class="col">
-                       <CardBS url="/image1.png"/>
+                       <CardBS url="./src/images/image1.png"/>
                     </div>
 
                     <div class="col">
-                       <CardBS url="/image2.png"/>
+                       <CardBS url="./src/images/image2.png"/>
                     </div>
 
                     <div class="col">
-                       <CardBS url="/image3.png"/>
+                       <CardBS url="./src/images/image3.png"/>
                     </div>
 
                     <div class="col">
