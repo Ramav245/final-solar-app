@@ -1,7 +1,8 @@
 {
   "name": "solar-app",
+
   "homepage":"www.pavitharmenergy.com",
-  /*https://Ramav245.github.io/SolarReactWebsite*/
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

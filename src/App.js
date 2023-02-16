@@ -7,9 +7,12 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import WhySolar from './routes/WhySolar';
+
 import Products from './routes/Products';
 import { Card } from 'react-bootstrap';
 import CardBS from './Components/CardBS';
+
+
 
 function App() {
   return (
