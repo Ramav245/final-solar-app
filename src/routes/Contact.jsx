@@ -4,12 +4,14 @@ import ContactForm from '../Components/ContactForm'
 import Footer from '../Components/Footer';
 
 
-const Contact = () => {
+const Contact = () => 
+{
   return (
 <body>
 
     <div>
       <div class="hero">
+        <h1 class="headings">Contact Us</h1>
       </div>
     </div>
     

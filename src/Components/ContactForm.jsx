@@ -8,13 +8,13 @@ const ContactForm = () => {
     <Container>
       <Row>
         <Col>
-            <h1>
+            <h1 class="subsubheadings">
                 Contact Us
             </h1>
 
-            <header class="header">
+            <h1 class="subsubheadings">
                 We'd love to hear from you!
-            </header>
+            </h1>
 
             <p>
                 Office hours are 8am-5pm, Monday through Friday. 

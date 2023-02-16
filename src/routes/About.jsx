@@ -7,14 +7,13 @@ const About = () => {
     <body>
       <div>
         <div class="hero">
-        <h1>About Us</h1>
+        <h1 class="headings">About Us</h1>
         </div>
       </div>
 
-      <div class="evolution">
-        <h3>
+        <h2 class="subsubheadings">
           evolution
-        </h3>
+        </h2>
         <p>
           Shuttlz the brain child of Mr. S. Shankar - Chairman and Managing
           Director has formed with a desire to provide Zero Emission
@@ -29,9 +28,9 @@ const About = () => {
           Andhra,Telangana, karnataka and kerala.
         </p>
 
-        <h3>
+        <h2 class="subsubheadings">
           About Us
-        </h3>
+        </h2>
 
         <p>
         
@@ -62,21 +61,6 @@ const About = () => {
             between
             locations and also maintains a pollution free environment.
         </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
 
 
 

@@ -7,8 +7,8 @@ const WhySolar = () => {
     <body>
       <div class="hero">
 
-      <h1>Embrace positive change.</h1>
-                <h2>
+      <h1 class="headings">Embrace positive change.</h1>
+                <h2 class="subheadings">
                   We believe that solar is the most practical form of 
                   renewable energy on the planet and seek to make it 
                   accessible to as many people as possible. Empower yourself 
