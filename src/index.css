@@ -7,7 +7,7 @@ body
 .hero 
 {
 	height: 100vh;
-	background: url(/header.png);
+	background: url(./public/header.png);
 	font-size: 25px;
 }
 
