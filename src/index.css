@@ -1,3 +1,6 @@
+
+
+
 html *
 {
    font-family:Georgia, 'Times New Roman', Times, serif !important;
@@ -6,7 +9,7 @@ html *
 .hero 
 {
 	height: 100vh;
-	background: url(/header.png);
+	background: center / contain no-repeat url("./images/header.png");
 	font-size: 25px;
 }
 
@@ -124,7 +127,7 @@ a:link {
 
  .navbar-brand {
     position: relative;
-    background: url(/title.png);
+    background: url("./images/title.png");
     width: 175px;
 	height: 50px;
     background-size:cover;
