@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CardBS from '../Components/CardBS'
 const Products = () => {
   return (
     <body>
@@ -8,6 +8,28 @@ const Products = () => {
       <h1 class="headings">Products</h1>
     </div>
 
+    <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                       <CardBS url="/image1.png"/>
+                    </div>
+
+                    <div class="col">
+                       <CardBS url="/image2.png"/>
+                    </div>
+
+                    <div class="col">
+                       <CardBS url="/image3.png"/>
+                    </div>
+
+                    <div class="col">
+                       <CardBS url="/image4.png"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>  
 
     <div class="subsubheadings">Products</div>
 

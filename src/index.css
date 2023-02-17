@@ -1,12 +1,12 @@
-
-body
+html *
 {
-    font: 18px Arial, sans-serif;
+   font-family:Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .hero 
 {
 	height: 100vh;
+	background: url(/header.png);
 	font-size: 25px;
 }
 
@@ -47,7 +47,8 @@ text-align: center;
 
 h3{
 	text-align: center;
-	padding: 5rem;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	font-size: 25px;
 }
 
@@ -123,7 +124,7 @@ a:link {
 
  .navbar-brand {
     position: relative;
-    background: url(./images/title.png);
+    background: url(/title.png);
     width: 175px;
 	height: 50px;
     background-size:cover;
@@ -179,5 +180,6 @@ a:link {
 
 .container
 {
+	margin-left: auto;
 	padding: 2rem;
 }

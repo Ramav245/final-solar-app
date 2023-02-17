@@ -1,8 +1,6 @@
 import React from 'react'
 import CardBS from '../Components/CardBS'
 import ContactForm from '../Components/ContactForm'
-import Footer from '../Components/Footer';
-
 
 const Contact = () => 
 {
@@ -19,14 +17,6 @@ const Contact = () =>
     <div>
       <ContactForm/>
     </div>
-
-    <div>
-      <Footer/>
-    </div>
-
-
-
-
 
   </body>
   )

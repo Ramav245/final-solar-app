@@ -26,9 +26,6 @@ const WhySolar = () => {
 
       </div>
 
-      <div>
-          <Footer/>
-      </div>
     </body>
 
   )

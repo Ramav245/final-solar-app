@@ -28,7 +28,7 @@ const ContactForm = () => {
             </p>
         </Col>
 
-        <Col><img src="img1.jpeg" width="500" height="500"></img></Col>
+        <Col><img src="./image1.png" width="500" height="500"></img></Col>
       </Row>
     </Container>
   )
