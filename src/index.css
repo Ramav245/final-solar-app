@@ -3,28 +3,41 @@
 
 html *
 {
-   font-family:Georgia, 'Times New Roman', Times, serif !important;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+}
+
+body
+{
+	margin: 0;
+	color: white;
+	background: #202731;
+}
+
+.navbar
+{
+	min-height: 1rem;
 }
 
 .hero 
 {
-	height: 100vh;
-	background: center / contain no-repeat url("./images/header.png");
+	background: url("./images/header.png");
 	font-size: 25px;
-	background-size:contain;
+	background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+	height: 75vh;
 }
 
-.hero .buttonHero
+.buttonHero
 {
 	padding-left: 5%;
 	padding-top: 30%;
 }
 
 img {
-  display: inline-block;
+  display:block;
 }
 
 .aboutUs .buttonAboutUs
@@ -99,13 +112,7 @@ a:link {
 	color: white;
 	text-decoration: none;
   }
-  
-  /* mouse over link */
-  a:hover {
-	color: hotpink;
-	text-decoration: none;
-  }
-  
+
   /* selected link */
   a:active {
 	color: white;
@@ -146,7 +153,8 @@ a:link {
 	width: fit-content;
 }
 
-.btn {
+.btn 
+{
 	border-radius: 0;
 	width: fit-content;
 	background-color: #69F0AE;
@@ -158,22 +166,26 @@ a:link {
 	font-weight: 900;
 }
 
-.img-thumbnail {
+.img-thumbnail 
+{
 	border: none;
 }
 
-.card {
+.card 
+{
 	box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
 	border-radius: 5px;
 	padding-bottom: 10px;
 }
 
-.card-title {
+.card-title 
+{
 	font-size: 14px;
 	font-weight: 900;
 }
 
-.card-text {
+.card-text 
+{
 	font-size: 14px;
 	font-family: sans-serif;
 	font-weight: 500;
@@ -187,6 +199,29 @@ a:link {
 
 .container
 {
-	margin-left: auto;
-	padding: 2rem;
+	padding-left: 100px;
+	margin-top: 100px;
+}
+
+/* WAVE*/
+.svg-div
+{
+	height: 155px; 
+	overflow: hidden;
+	position:relative;
+}
+
+.path-div
+{
+	stroke: none; 
+	fill: white;
+}
+
+.curve
+{
+	
+	height: 100%; 
+	width: 100%;
+	position: absolute;
+	align: bottom;
 }

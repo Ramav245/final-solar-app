@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const ContactForm = () => {
   return (
+    
     <Container>
       <Row>
         <Col>

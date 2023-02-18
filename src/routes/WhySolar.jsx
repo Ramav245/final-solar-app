@@ -4,7 +4,7 @@ import Footer from '../Components/Footer';
 
 const WhySolar = () => {
   return (
-    <body>
+    <section>
       <div class="hero">
 
       <h1 class="headings">Embrace positive change.</h1>
@@ -17,6 +17,13 @@ const WhySolar = () => {
                   money for the things that matter 
                   most and protect the environment for generations to come.
                 </h2>
+                <div class="buttonHero"></div>
+                <div class="svg-div" >
+        <svg class="curve" viewBox="0 0 500 150" preserveAspectRatio="none">
+            <path class="path-div" d="M0.00,49.98 C132.29,149.50 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" >
+                </path>
+            </svg>
+        </div>
 
 
 
@@ -26,7 +33,7 @@ const WhySolar = () => {
 
       </div>
 
-    </body>
+</section>
 
   )
 }

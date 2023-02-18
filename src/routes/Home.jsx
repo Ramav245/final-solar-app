@@ -3,10 +3,10 @@ import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InfoCardBS from "../Components/InfoCardBS";
 import Footer from '../Components/Footer';
-import Button from 'react-bootstrap/Button';
+
 import Information from '../Components/Information';
 import { NavLink } from "react-router-dom";
-
+import Button from 'react-bootstrap/Button';
 const Home = () => 
 {
     return(
@@ -19,22 +19,25 @@ const Home = () =>
 
 
 
-        <section>
-            
-        <div class="hero">
+  
+<section> 
+    <div class="hero">
 
         <h1 class="headings">Energy with Integrity®. Since 1994.</h1>
         <h2 class="subheadings">Solar energy can lower your cost of living, protect the environment and improve your quality of life. 
         Take control of your electric bill with a no-cost solar installation today.
         </h2>
-        <div class="buttonHero"><Button variant="primary"><div class="nav-link"><NavLink to="/contact">Contact Us</NavLink></div></Button></div>
 
+        <div class="buttonHero"></div>
+        <div class="svg-div" >
+          <svg class="curve" viewBox="0 0 500 150" preserveAspectRatio="none">
+              <path class="path-div" d="M0.00,49.98 C132.29,149.50 350.85,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" ></path>
+          </svg>
         </div>
-
-        </section>
+    </div>
+</section>
 
         <section>
-
         <div class="container">
                 <div class="row">
                     <div class="col">
@@ -71,13 +74,18 @@ const Home = () =>
 
         </section>
 
-
+        <section>
         <div class="aboutUs">
 
             <Information/>
             <div class="buttonAboutUs"><Button variant="primary">Contact Us</Button></div>
         </div>
+        </section>
+
     </body>
+
+
+
     )
 }
 
