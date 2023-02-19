@@ -21,15 +21,14 @@ import CardBS from './Components/CardBS';
 
 
 
+
 function App() 
 {
   return (
 
 
     <>
- 
-
-    <Header />
+      <Header/> 
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
@@ -40,6 +39,7 @@ function App()
         <Route path='/batterySwap' element={<BatterySwap/>} />
         <Route path='/powerPlant' element={<PowerPlant/>} />
       </Routes>
+    
       <Footer/>
     </>
 

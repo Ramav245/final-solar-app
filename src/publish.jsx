@@ -1,4 +1,4 @@
 ghpages.publish('dist', {
-    branch: 'master',
+    branch: 'main',
     repo: 'https://github.com/Ramav245/SolarReactWebsite.git'
   }, callback);

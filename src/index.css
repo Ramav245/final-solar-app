@@ -1,22 +1,17 @@
-
-
-
 html *
 {
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-
 }
 
 body
 {
 	margin: 0;
-	color: white;
-	background: #202731;
+	padding:0px;
 }
 
 .navbar
 {
-	min-height: 1rem;
+	position: relative;
 }
 
 .hero 
@@ -24,9 +19,7 @@ body
 	background: url("./images/header.png");
 	font-size: 25px;
 	background-size:cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
 	height: 75vh;
 }
 
@@ -34,10 +27,6 @@ body
 {
 	padding-left: 5%;
 	padding-top: 30%;
-}
-
-img {
-  display:block;
 }
 
 .aboutUs .buttonAboutUs
@@ -113,6 +102,11 @@ a:link {
 	text-decoration: none;
   }
 
+
+  div
+  {
+	display: block;
+  }
   /* selected link */
   a:active {
 	color: white;
@@ -120,28 +114,23 @@ a:link {
   }
 
   .footer {
-	position: relative;
-	margin-top: 10rem;
-	padding: 5rem;
-	width: 100%;
-	height: 100%;
-	background-color: green;
-	color: white;
-	text-align: center;
+	margin: 0px;
+    padding: 0px;
+    min-width:100%;
+    max-width:100%;
+	background-color: #2B5627;
  }
 
- img
- {
-	padding: 1rem;
-	
- }
+
+
 
  .navbar-brand {
-    position: relative;
+
+	position: relative;
     background: url("./images/title.png");
     width: 175px;
 	height: 50px;
-    background-size:cover;
+	background-size: cover;
 }
 
 /*CARDS*/
@@ -194,7 +183,6 @@ a:link {
 .container-fluid
 {
 	padding: 5rem;
-
 }
 
 .container
@@ -204,24 +192,37 @@ a:link {
 }
 
 /* WAVE*/
-.svg-div
-{
-	height: 155px; 
-	overflow: hidden;
-	position:relative;
+#bloc_page {
+    position:relative;
+	height: 100%;
+    width: 100%;
+    margin: auto;
+	padding: auto;
+	bottom:15%;
 }
 
-.path-div
+/*FOOTER */
+.footer
 {
-	stroke: none; 
-	fill: white;
+	text-align: center;
 }
 
-.curve
+
+.fill-class
 {
-	
-	height: 100%; 
-	width: 100%;
+	transition: all 0.3s ease 0s;
+	z-index: -10;
+}
+
+  .wrap-layer{
+	position: relative;
+ }
+ .text-layer{
 	position: absolute;
-	align: bottom;
-}
+	width: 100%;
+	height: auto;
+	top: 175px;
+	color: white; 
+ }
+
+ 

@@ -6,7 +6,13 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-      <Navbar class="navbar" bg="dark" variant="dark">
+<body>
+
+
+
+
+       <div>
+          <Navbar class="navbar" bg="dark" variant="dark">
             <Navbar.Brand class="navbar-brand"></Navbar.Brand>
               <Nav  className="me-auto">
                 <div class="nav-link"><NavLink to="/">Home</NavLink></div>
@@ -18,10 +24,27 @@ const Header = () => {
                 <div class="nav-link"><NavLink to="/batterySwap">BatterySwap</NavLink></div>
                 <div class="nav-link"><NavLink to="/powerPlant">PowerPlant</NavLink></div>
               </Nav>
+          </Navbar>
+        </div>
 
-      </Navbar>
-  
+      
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
   )
 }
 
 export default Header
+
