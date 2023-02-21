@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Information from '../Components/Information';
 
 const Home = () => 
+
 {
     return(
 
@@ -14,10 +15,7 @@ const Home = () =>
 <section>
 
     <div class="hero">
-        <h1 class="headings">Energy with Integrity®. Since 1994.</h1>
-        <h2 class="subheadings">Solar energy can lower your cost of living, protect the environment and improve your quality of life. 
-        Take control of your electric bill with a no-cost solar installation today.
-        </h2>
+        <h1 class="headings">Pavithram Energy Solutions Private Limited</h1>
 
         <div class="buttonHero"></div>
 
@@ -71,7 +69,7 @@ const Home = () =>
                     <div class="col">
                     <div class="wrap-layer">
                     <div class="text-layer">
-                                <h3>Sustainable***</h3>
+                                <h3>Sustainable</h3>
                             </div>
                     <div class="background-layer">
                         <svg id="sw-js-blob-svg"  viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg">                 
@@ -107,6 +105,7 @@ const Home = () =>
             <Information/>
         </div>
         </section>
+
 
     </body>
     )

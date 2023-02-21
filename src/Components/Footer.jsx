@@ -18,19 +18,7 @@ const Footer = () => {
 
             <h3>
                 We'd love to hear from you!
-            </h3>
-
-            <p>
-                Office hours are 8am-5pm, Monday through Friday. 
-                Please call us at (831) 201-6759. Or send us an email: info@allterrasolar.com
-            </p>
-
-            <p>
-                Allterra Solar
-                207-B McPherson Street
-                Santa Cruz, CA 95060
-            </p>
-    
+            </h3>    
       </div>
  </div>
 

@@ -15,13 +15,10 @@ const Header = () =>
                   <Nav className="me-auto">
                     <Navbar.Brand><NavLink to="/"></NavLink></Navbar.Brand>
                     <div class="nav-link"><NavLink to="/">Home</NavLink></div>
-                    <div class="nav-link"><NavLink to="/whySolar">Why Solar</NavLink></div>
                     <div class="nav-link"><NavLink to="/contact">Contact</NavLink></div>
                     <div class="nav-link"><NavLink to="/about">About</NavLink></div>
                     <div class="nav-link"><NavLink to="/products">Products</NavLink></div>
-                    <div class="nav-link"><NavLink to="/battery">Battery</NavLink></div>
-                    <div class="nav-link"><NavLink to="/batterySwap">BatterySwap</NavLink></div>
-                    <div class="nav-link"><NavLink to="/powerPlant">PowerPlant</NavLink></div>
+                    <div class="nav-link"><NavLink to="/wwd">What We Do</NavLink></div>
                   </Nav>
             </Navbar>
           </div>
@@ -35,14 +32,14 @@ const Header = () =>
               <Navbar.Collapse id="navbar-dark-example">
               <Nav>
               <div class="nav-link"><NavLink to="/"></NavLink></div>
-              <div class="nav-link"><NavDropdown.Item><NavLink to="/">Home</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/whySolar">Why Solar</NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/">Home</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/contact">Contact</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/about">About</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/products">Products</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/battery">Battery</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/batterySwap">BatterySwap</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/powerPlant">PowerPlant</NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/wwd">What We Do</NavLink></NavDropdown.Item></div>
+                    
+
+
               </Nav>
               </Navbar.Collapse>
             </Container>

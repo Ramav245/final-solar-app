@@ -4,8 +4,15 @@ const Information = () => {
   return (
     <div class="informationSection">
     <h3 class="subsubheadings">An Established Name in Solar.</h3>
-    <p>Through many years of hard work, we've proven ourselves as leaders in the industry. The Trinity family has grown to more than 1,900 employees who make up our in-house customer support, construction, electrical
-       and service teams. Count on us to make solar as simple and seamless as possible for you.</p>
+    <p>Transun Energy Systems is a solar Engineering, Procurement and construction company with strong
+experience in installing rooftop and utility scale solar power projects. The company focusses mainly into
+Rooftop and utility scale solar power solutions to commercial, industrial, institutional and residential segment.
+
+Transun makes its technological capabilities available to customers from
+resource assessment, processing, engineering, design, construction operation
+and maintenance. Transun has developed key relationship with manufacturers,
+suppliers along the solar value chain to deliver EPC solution for rooftop and
+ground mounted solar parks.</p>
        <div class="buttonAboutUs"><Button variant="primary">Contact Us</Button></div>
     </div>
   )

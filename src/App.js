@@ -6,20 +6,8 @@ import Footer from './Components/Footer';
 import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
-import WhySolar from './routes/WhySolar';
-import Battery from "./routes/Battery";
-import BatterySwap from "./routes/BatterySwapping";
-import PowerPlant from "./routes/PowerPlant";
-
-
-
-
-
 import Products from './routes/Products';
-import { Card } from 'react-bootstrap';
-import CardBS from './Components/CardBS';
-
-
+import WhatWeDo from "./routes/wwd";
 
 
 function App() 
@@ -33,11 +21,9 @@ function App()
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/whySolar' element={<WhySolar/>} />
         <Route path='/products' element={<Products/>} />
-        <Route path='/battery' element={<Battery/>} />
-        <Route path='/batterySwap' element={<BatterySwap/>} />
-        <Route path='/powerPlant' element={<PowerPlant/>} />
+        <Route path='/wwd' element={<WhatWeDo/>} />
+        
       </Routes>
     
       <Footer/>

@@ -14,33 +14,7 @@ const Products = () => {
         </div>
     </div>
 
-    <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                       <CardBS url="./src/images/image1.png"/>
-                    </div>
-
-                    <div class="col">
-                       <CardBS url="./src/images/image2.png"/>
-                    </div>
-
-                    <div class="col">
-                       <CardBS url="./src/images/image3.png"/>
-                    </div>
-
-                    <div class="col">
-                       <CardBS url="/image4.png"/>
-                    </div>
-
-                </div>
-            </div>
-        </section>  
-
-    <div class="subsubheadings">Products</div>
-
-
-
+    <div class="subsubheadings"><h2>Products</h2></div>
 
     <h3>
     <ul>
