@@ -13,7 +13,6 @@ resource assessment, processing, engineering, design, construction operation
 and maintenance. Transun has developed key relationship with manufacturers,
 suppliers along the solar value chain to deliver EPC solution for rooftop and
 ground mounted solar parks.</p>
-       <div class="buttonAboutUs"><Button variant="primary">Contact Us</Button></div>
     </div>
   )
 }

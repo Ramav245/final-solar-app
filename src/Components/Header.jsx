@@ -33,7 +33,6 @@ const Header = () =>
               <Nav>
               <div class="nav-link"><NavLink to="/"></NavLink></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/">Home</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/contact">Contact</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/about">About</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/products">Products</NavLink></NavDropdown.Item></div>
                     <div class="nav-link"><NavDropdown.Item><NavLink to="/wwd">What We Do</NavLink></NavDropdown.Item></div>
