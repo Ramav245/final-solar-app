@@ -10,16 +10,7 @@ const Footer = () => {
         </svg>
       </div>
     
-      <div class="footer">
-
-            <h3>
-                Contact Us
-            </h3>
-
-            <h3>
-                We'd love to hear from you!
-            </h3>    
-      </div>
+      
  </div>
 
 

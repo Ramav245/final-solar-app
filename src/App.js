@@ -8,7 +8,7 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 import Products from './routes/Products';
 import WhatWeDo from "./routes/wwd";
-
+import Photos from './routes/Photos';
 
 function App() 
 {
@@ -23,6 +23,7 @@ function App()
         <Route path='/contact' element={<Contact/>} />
         <Route path='/products' element={<Products/>} />
         <Route path='/wwd' element={<WhatWeDo/>} />
+        <Route path='/photos' element={<Photos/>} />
         
       </Routes>
     

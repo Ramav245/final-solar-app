@@ -13,9 +13,13 @@ const ContactForm = () => {
                 Contact Us
             </h1>
 
-            <h1 class="subsubheadings">
-                We'd love to hear from you!
-            </h1>
+
+            <ul>
+            <li>Mobile; 96000 82399</li>
+            <li>Email: pavithramenenergy@gmail.com</li>
+            <li>Website: www.pavithramenergy.com</li>
+          </ul>
+
 
 
         </Col>

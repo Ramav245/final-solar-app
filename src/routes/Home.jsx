@@ -96,60 +96,7 @@ const Home = () =>
 
 
         </section>
-
-        <section class="homepage-wwd">
-            <div>   
-                <Container>
-                <h1>What We Do</h1>  
-                    <Row>
-                        <Col>
-                            <h2>Rooftop Ongrid Solar Power Plant</h2>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
-                            <h2>Rooftop Offgrid Solar power plant</h2>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
-                            <h2>Solar parks - Secure Investment</h2>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
-                            <h2>SOLAR PUMPS</h2>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h2>Solar carport</h2>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h2>Solar Tree</h2>
-                        </Col>
-                    </Row>
-
-
-
-
-
-
-
-
-
-                    
-                </Container>
-
-            </div>
-
-        </section>
-
+        
         <section>
         <div class="aboutUs">
 
