@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ramav245.github.io/final-solar-app/",
+  "homepage": "https://www.pavithramenergy.com",
   "name": "solar-app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "build": "^0.1.4",
+    "ghpages": "^0.0.10",
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
