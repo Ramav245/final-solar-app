@@ -8,7 +8,7 @@ const Photos = () =>
 <div>
     <section>
     <div class="hero">
-      <h1 class="headings">Gallery</h1>
+      <h1 class="headings">Photos</h1>
       <div class="buttonHero"></div>
 
       <div id="bloc_page">

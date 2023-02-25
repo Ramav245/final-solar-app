@@ -5,7 +5,7 @@ const wwd = () => {
     <body>
       <section>
         <div class="hero">
-        <h1 class="headings">What We Do</h1>
+        <h1 class="headings">Benefits</h1>
 
         <div class="buttonHero"></div>
         <div id="bloc_page">
@@ -22,7 +22,7 @@ const wwd = () => {
 
           <Col>
             <ul>
-            <li>TRANSUN ONGRID SOLAR power plant is for the customers who want to reduce electricity cost</li>
+            <li>Pavithram ONGRID SOLAR power plant is for the customers who want to reduce electricity cost</li>
             <li>Generated power will be used in building and excess can be exported to grid.</li>
             <li>Customers can avail Net-meter to record the export and import electric</li>
             <li>Reduce electricity up to 80%</li>
@@ -52,7 +52,7 @@ const wwd = () => {
 
         <Col>
           <ul>
-          <li>TRANSUN ONGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
+          <li>Pavithram ONGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
           <li>Generated power will be used in building and excess can be stored in the battery</li>
           <li>Enjoy uninterrupted power even during power outages, floods ,cyclones</li>
           <li>Less maintenance C10 batteries</li>
@@ -116,7 +116,7 @@ point technology for a reliable and fail safe operation</li>
         </Col>
 
         <Col>
-        <img src="./pump.png"  width="500px" height="500px"/>
+        <img src="./carport.png"  width="500px" height="500px"/>
         </Col>
         </Row>
 

@@ -99,7 +99,7 @@ const About = () => {
         <p>
           <ul>
             <li>Mobile; 96000 82399</li>
-            <li>Email: pavithramenenergy@gmail.com</li>
+            <li>Email: pavithramenenergy1@gmail.com</li>
             <li>Website: www.pavithramenergy.com</li>
           </ul>
         </p>

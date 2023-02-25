@@ -25,6 +25,8 @@ a:active {
 }
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
@@ -132,6 +134,10 @@ a:active {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
+	img
+	{
+		padding-left: 1rem;
+	}
 	ul
 	{
 		font-size: 25px;
@@ -268,11 +274,6 @@ a:active {
 		padding: 5rem; 
 		margin: 5rem; 
 		font-size: large;
-	}
-
-	.navbar-brand 
-	{
-		display: none;
 	}
 
 }

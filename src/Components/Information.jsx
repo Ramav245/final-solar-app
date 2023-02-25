@@ -10,7 +10,7 @@ Rooftop and utility scale solar power solutions to commercial, industrial, insti
 
 Pavithram energy makes its technological capabilities available to customers from
 resource assessment, processing, engineering, design, construction operation
-and maintenance. Pavithrum energy has developed key relationship with manufacturers,
+and maintenance. Pavithram energy has developed key relationship with manufacturers,
 suppliers along the solar value chain to deliver EPC solution for rooftop and
 ground mounted solar parks.</p>
     </div>
