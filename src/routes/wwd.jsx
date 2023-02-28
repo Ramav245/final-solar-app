@@ -52,7 +52,7 @@ const wwd = () => {
 
         <Col>
           <ul>
-          <li>Pavithram ONGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
+          <li>Pavithram OFFGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
           <li>Generated power will be used in building and excess can be stored in the battery</li>
           <li>Enjoy uninterrupted power even during power outages, floods ,cyclones</li>
           <li>Less maintenance C10 batteries</li>
@@ -159,7 +159,7 @@ point technology for a reliable and fail safe operation</li>
 
           <Col>
             <ul>
-            <li>TRANSUN ONGRID SOLAR power plant is for the customers who want to reduce electricity cost</li>
+            <li>Pavithram ONGRID SOLAR power plant is for the customers who want to reduce electricity cost</li>
             <li>Generated power will be used in building and excess can be exported to grid.</li>
             <li>Customers can avail Net-meter to record the export and import electric</li>
             <li>Reduce electricity up to 80%</li>
@@ -178,7 +178,7 @@ point technology for a reliable and fail safe operation</li>
         <h1>Rooftop Offgrid Solar power plant</h1>
         <Col>
           <ul>
-          <li>TRANSUN ONGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
+          <li>Pavithram OFFGRID SOLAR power plant is for the customers who suffers from frequent power cuts</li>
           <li>Generated power will be used in building and excess can be stored in the battery</li>
           <li>Enjoy uninterrupted power even during power outages, floods ,cyclones</li>
           <li>Less maintenance C10 batteries</li>
