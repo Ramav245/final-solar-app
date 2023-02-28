@@ -13,7 +13,7 @@ const Header = () =>
         <div class="displayNav">
           <Navbar bg="dark" variant="pills">
                   <Nav className="me-auto">
-                    <Navbar.Brand><a href="#" class="navbar-left"><img width="125px" src="./title.png"/></a></Navbar.Brand>
+                    <Navbar.Brand><a href="#" class="navbar-left"></a></Navbar.Brand>
                     <div class="nav-link"><NavLink to="/">Home</NavLink></div>
                     <div class="nav-link"><NavLink to="/about">About</NavLink></div>
                     <div class="nav-link"><NavLink to="/wwd">Benefits</NavLink></div>

@@ -125,7 +125,7 @@ point technology for a reliable and fail safe operation</li>
     
         <h1>Solar tree</h1>
         <Col>
-        <img src="./SolarTree.png"  width="500px" height="500px"/>
+        <img src="./solarTree.png"  width="500px" height="500px"/>
         </Col>
 
 
