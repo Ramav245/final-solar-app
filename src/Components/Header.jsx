@@ -13,12 +13,12 @@ const Header = () =>
         <div class="displayNav">
           <Navbar bg="dark" variant="pills">
                   <Nav className="me-auto">
-                    <Navbar.Brand><a href="#" class="navbar-left"></a></Navbar.Brand>
-                    <div class="nav-link"><NavLink to="/">Home</NavLink></div>
-                    <div class="nav-link"><NavLink to="/about">About</NavLink></div>
-                    <div class="nav-link"><NavLink to="/wwd">Benefits</NavLink></div>
-                    <div class="nav-link"><NavLink to="/photos">Photos</NavLink></div>
-                    <div class="nav-link"><NavLink to="/contact">Contact</NavLink></div>
+                    <Navbar.Brand><img src="./final-logo.png" style={{width:75, marginTop: -7}} /></Navbar.Brand>
+                    <div class="nav-link"><NavLink to="/"><h5>Home</h5></NavLink></div>
+                    <div class="nav-link"><NavLink to="/about"><h5>About</h5></NavLink></div>
+                    <div class="nav-link"><NavLink to="/wwd"><h5>Benefits</h5></NavLink></div>
+                    <div class="nav-link"><NavLink to="/photos"><h5>Photos</h5></NavLink></div>
+                    <div class="nav-link"><NavLink to="/contact"><h5>Contact</h5></NavLink></div>
                   </Nav>
             </Navbar>
           </div>
@@ -27,15 +27,15 @@ const Header = () =>
           <div class="mobile-container">
             <Navbar variant="dark" bg="dark" expand="lg">
             <Container>
-              <Navbar.Brand href="#home"></Navbar.Brand>
+              <Navbar.Brand><img src="./final-logo.png" style={{width:100, marginTop: -7}} /></Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-dark-example" />
               <Navbar.Collapse id="navbar-dark-example">
               <Nav>
               <div class="nav-link"><NavLink to="/"></NavLink></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/">Home</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/about">About</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/wwd">Benefits</NavLink></NavDropdown.Item></div>
-                    <div class="nav-link"><NavDropdown.Item><NavLink to="/photos">Photos</NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/"><h5>Home</h5></NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/about"><h5>About</h5></NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/wwd"><h5>Benefits</h5></NavLink></NavDropdown.Item></div>
+                    <div class="nav-link"><NavDropdown.Item><NavLink to="/photos"><h5>Photos</h5></NavLink></NavDropdown.Item></div>
 
               
                     
